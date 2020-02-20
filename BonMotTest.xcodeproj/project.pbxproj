@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54B909623FF263300FABBE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B909523FF263300FABBE4 /* AppDelegate.swift */; };
+		A54B909823FF263300FABBE4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B909723FF263300FABBE4 /* GameViewController.swift */; };
+		A54B909B23FF263400FABBE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54B909923FF263400FABBE4 /* Main.storyboard */; };
+		A54B909E23FF263400FABBE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54B909C23FF263400FABBE4 /* LaunchScreen.storyboard */; };
+		A54B90A323FF263400FABBE4 /* BonMotTest.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A54B90A223FF263400FABBE4 /* BonMotTest.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A54B90A923FF263400FABBE4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54B90A723FF263400FABBE4 /* Interface.storyboard */; };
+		A54B90B023FF263400FABBE4 /* BonMotTest Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A54B90AF23FF263400FABBE4 /* BonMotTest Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A54B90B523FF263400FABBE4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B90B423FF263400FABBE4 /* InterfaceController.swift */; };
+		A54B90B723FF263400FABBE4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B90B623FF263400FABBE4 /* ExtensionDelegate.swift */; };
+		A54B90C023FF263400FABBE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B90BF23FF263400FABBE4 /* AppDelegate.swift */; };
+		A54B90C223FF263400FABBE4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B90C123FF263400FABBE4 /* GameViewController.swift */; };
+		A54B90C523FF263400FABBE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54B90C323FF263400FABBE4 /* Main.storyboard */; };
+		A54B90C823FF263400FABBE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54B90C623FF263400FABBE4 /* LaunchScreen.storyboard */; };
+		A54B90D123FF263400FABBE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B90D023FF263400FABBE4 /* AppDelegate.swift */; };
+		A54B90D323FF263400FABBE4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B90D223FF263400FABBE4 /* GameViewController.swift */; };
+		A54B90D623FF263400FABBE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54B90D423FF263400FABBE4 /* Main.storyboard */; };
+		A54B90D823FF263400FABBE4 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B908B23FF262900FABBE4 /* GameController.swift */; };
+		A54B90D923FF263400FABBE4 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B908B23FF262900FABBE4 /* GameController.swift */; };
+		A54B90DA23FF263400FABBE4 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B908B23FF262900FABBE4 /* GameController.swift */; };
+		A54B90DB23FF263400FABBE4 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54B908B23FF262900FABBE4 /* GameController.swift */; };
+		A54B90DC23FF263400FABBE4 /* Art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A54B908C23FF262900FABBE4 /* Art.scnassets */; };
+		A54B90DD23FF263400FABBE4 /* Art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A54B908C23FF262900FABBE4 /* Art.scnassets */; };
+		A54B90DE23FF263400FABBE4 /* Art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A54B908C23FF262900FABBE4 /* Art.scnassets */; };
+		A54B90DF23FF263400FABBE4 /* Art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A54B908C23FF262900FABBE4 /* Art.scnassets */; };
+		A54B90E023FF263400FABBE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54B908D23FF263300FABBE4 /* Assets.xcassets */; };
+		A54B90E123FF263400FABBE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54B908D23FF263300FABBE4 /* Assets.xcassets */; };
+		A54B90E223FF263400FABBE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54B908D23FF263300FABBE4 /* Assets.xcassets */; };
+		A54B90E323FF263400FABBE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54B908D23FF263300FABBE4 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A54B90A423FF263400FABBE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A54B908623FF262900FABBE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A54B90A123FF263400FABBE4;
+			remoteInfo = "BonMotTest watchOS App";
+		};
+		A54B90B123FF263400FABBE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A54B908623FF262900FABBE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A54B90AE23FF263400FABBE4;
+			remoteInfo = "BonMotTest watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A54B90E923FF263400FABBE4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A54B90B023FF263400FABBE4 /* BonMotTest Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54B90ED23FF263400FABBE4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A54B90A323FF263400FABBE4 /* BonMotTest.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A54B908B23FF262900FABBE4 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		A54B908C23FF262900FABBE4 /* Art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Art.scnassets; sourceTree = "<group>"; };
+		A54B908D23FF263300FABBE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A54B909223FF263300FABBE4 /* BonMotTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonMotTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54B909523FF263300FABBE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A54B909723FF263300FABBE4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A54B909A23FF263400FABBE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A54B909D23FF263400FABBE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A54B909F23FF263400FABBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54B90A223FF263400FABBE4 /* BonMotTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonMotTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54B90A823FF263400FABBE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A54B90AA23FF263400FABBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54B90AF23FF263400FABBE4 /* BonMotTest Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BonMotTest Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54B90B423FF263400FABBE4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A54B90B623FF263400FABBE4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A54B90B823FF263400FABBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54B90BD23FF263400FABBE4 /* BonMotTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonMotTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54B90BF23FF263400FABBE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A54B90C123FF263400FABBE4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A54B90C423FF263400FABBE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A54B90C723FF263400FABBE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A54B90C923FF263400FABBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54B90CE23FF263400FABBE4 /* BonMotTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonMotTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54B90D023FF263400FABBE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A54B90D223FF263400FABBE4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A54B90D523FF263400FABBE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A54B90D723FF263400FABBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A54B908F23FF263300FABBE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54B90AC23FF263400FABBE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54B90BA23FF263400FABBE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54B90CB23FF263400FABBE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A54B908523FF262900FABBE4 = {
+			isa = PBXGroup;
+			children = (
+				A54B908A23FF262900FABBE4 /* BonMotTest Shared */,
+				A54B909423FF263300FABBE4 /* BonMotTest iOS */,
+				A54B90A623FF263400FABBE4 /* BonMotTest watchOS App */,
+				A54B90B323FF263400FABBE4 /* BonMotTest watchOS App Extension */,
+				A54B90BE23FF263400FABBE4 /* BonMotTest tvOS */,
+				A54B90CF23FF263400FABBE4 /* BonMotTest macOS */,
+				A54B909323FF263300FABBE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A54B908A23FF262900FABBE4 /* BonMotTest Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A54B908B23FF262900FABBE4 /* GameController.swift */,
+				A54B908C23FF262900FABBE4 /* Art.scnassets */,
+				A54B908D23FF263300FABBE4 /* Assets.xcassets */,
+			);
+			path = "BonMotTest Shared";
+			sourceTree = "<group>";
+		};
+		A54B909323FF263300FABBE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A54B909223FF263300FABBE4 /* BonMotTest.app */,
+				A54B90A223FF263400FABBE4 /* BonMotTest.app */,
+				A54B90AF23FF263400FABBE4 /* BonMotTest Extension.appex */,
+				A54B90BD23FF263400FABBE4 /* BonMotTest.app */,
+				A54B90CE23FF263400FABBE4 /* BonMotTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A54B909423FF263300FABBE4 /* BonMotTest iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A54B909523FF263300FABBE4 /* AppDelegate.swift */,
+				A54B909723FF263300FABBE4 /* GameViewController.swift */,
+				A54B909923FF263400FABBE4 /* Main.storyboard */,
+				A54B909C23FF263400FABBE4 /* LaunchScreen.storyboard */,
+				A54B909F23FF263400FABBE4 /* Info.plist */,
+			);
+			path = "BonMotTest iOS";
+			sourceTree = "<group>";
+		};
+		A54B90A623FF263400FABBE4 /* BonMotTest watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				A54B90A723FF263400FABBE4 /* Interface.storyboard */,
+				A54B90AA23FF263400FABBE4 /* Info.plist */,
+			);
+			path = "BonMotTest watchOS App";
+			sourceTree = "<group>";
+		};
+		A54B90B323FF263400FABBE4 /* BonMotTest watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A54B90B423FF263400FABBE4 /* InterfaceController.swift */,
+				A54B90B623FF263400FABBE4 /* ExtensionDelegate.swift */,
+				A54B90B823FF263400FABBE4 /* Info.plist */,
+			);
+			path = "BonMotTest watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		A54B90BE23FF263400FABBE4 /* BonMotTest tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				A54B90BF23FF263400FABBE4 /* AppDelegate.swift */,
+				A54B90C123FF263400FABBE4 /* GameViewController.swift */,
+				A54B90C323FF263400FABBE4 /* Main.storyboard */,
+				A54B90C623FF263400FABBE4 /* LaunchScreen.storyboard */,
+				A54B90C923FF263400FABBE4 /* Info.plist */,
+			);
+			path = "BonMotTest tvOS";
+			sourceTree = "<group>";
+		};
+		A54B90CF23FF263400FABBE4 /* BonMotTest macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A54B90D023FF263400FABBE4 /* AppDelegate.swift */,
+				A54B90D223FF263400FABBE4 /* GameViewController.swift */,
+				A54B90D423FF263400FABBE4 /* Main.storyboard */,
+				A54B90D723FF263400FABBE4 /* Info.plist */,
+			);
+			path = "BonMotTest macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A54B909123FF263300FABBE4 /* BonMotTest iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54B90EE23FF263400FABBE4 /* Build configuration list for PBXNativeTarget "BonMotTest iOS" */;
+			buildPhases = (
+				A54B908E23FF263300FABBE4 /* Sources */,
+				A54B908F23FF263300FABBE4 /* Frameworks */,
+				A54B909023FF263300FABBE4 /* Resources */,
+				A54B90ED23FF263400FABBE4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A54B90A523FF263400FABBE4 /* PBXTargetDependency */,
+			);
+			name = "BonMotTest iOS";
+			productName = "BonMotTest iOS";
+			productReference = A54B909223FF263300FABBE4 /* BonMotTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A54B90A123FF263400FABBE4 /* BonMotTest watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54B90EA23FF263400FABBE4 /* Build configuration list for PBXNativeTarget "BonMotTest watchOS App" */;
+			buildPhases = (
+				A54B90A023FF263400FABBE4 /* Resources */,
+				A54B90E923FF263400FABBE4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A54B90B223FF263400FABBE4 /* PBXTargetDependency */,
+			);
+			name = "BonMotTest watchOS App";
+			productName = "BonMotTest watchOS App";
+			productReference = A54B90A223FF263400FABBE4 /* BonMotTest.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A54B90AE23FF263400FABBE4 /* BonMotTest watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54B90E623FF263400FABBE4 /* Build configuration list for PBXNativeTarget "BonMotTest watchOS App Extension" */;
+			buildPhases = (
+				A54B90AB23FF263400FABBE4 /* Sources */,
+				A54B90AC23FF263400FABBE4 /* Frameworks */,
+				A54B90AD23FF263400FABBE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BonMotTest watchOS App Extension";
+			productName = "BonMotTest watchOS App Extension";
+			productReference = A54B90AF23FF263400FABBE4 /* BonMotTest Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		A54B90BC23FF263400FABBE4 /* BonMotTest tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54B90F123FF263400FABBE4 /* Build configuration list for PBXNativeTarget "BonMotTest tvOS" */;
+			buildPhases = (
+				A54B90B923FF263400FABBE4 /* Sources */,
+				A54B90BA23FF263400FABBE4 /* Frameworks */,
+				A54B90BB23FF263400FABBE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BonMotTest tvOS";
+			productName = "BonMotTest tvOS";
+			productReference = A54B90BD23FF263400FABBE4 /* BonMotTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A54B90CD23FF263400FABBE4 /* BonMotTest macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54B90F423FF263400FABBE4 /* Build configuration list for PBXNativeTarget "BonMotTest macOS" */;
+			buildPhases = (
+				A54B90CA23FF263400FABBE4 /* Sources */,
+				A54B90CB23FF263400FABBE4 /* Frameworks */,
+				A54B90CC23FF263400FABBE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BonMotTest macOS";
+			productName = "BonMotTest macOS";
+			productReference = A54B90CE23FF263400FABBE4 /* BonMotTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A54B908623FF262900FABBE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Tozer LLC";
+				TargetAttributes = {
+					A54B909123FF263300FABBE4 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					A54B90A123FF263400FABBE4 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					A54B90AE23FF263400FABBE4 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					A54B90BC23FF263400FABBE4 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					A54B90CD23FF263400FABBE4 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = A54B908923FF262900FABBE4 /* Build configuration list for PBXProject "BonMotTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A54B908523FF262900FABBE4;
+			productRefGroup = A54B909323FF263300FABBE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A54B909123FF263300FABBE4 /* BonMotTest iOS */,
+				A54B90A123FF263400FABBE4 /* BonMotTest watchOS App */,
+				A54B90AE23FF263400FABBE4 /* BonMotTest watchOS App Extension */,
+				A54B90BC23FF263400FABBE4 /* BonMotTest tvOS */,
+				A54B90CD23FF263400FABBE4 /* BonMotTest macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A54B909023FF263300FABBE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54B909B23FF263400FABBE4 /* Main.storyboard in Resources */,
+				A54B909E23FF263400FABBE4 /* LaunchScreen.storyboard in Resources */,
+				A54B90E023FF263400FABBE4 /* Assets.xcassets in Resources */,
+				A54B90DC23FF263400FABBE4 /* Art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54B90A023FF263400FABBE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54B90E123FF263400FABBE4 /* Assets.xcassets in Resources */,
+				A54B90A923FF263400FABBE4 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54B90AD23FF263400FABBE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54B90DD23FF263400FABBE4 /* Art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54B90BB23FF263400FABBE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54B90C523FF263400FABBE4 /* Main.storyboard in Resources */,
+				A54B90C823FF263400FABBE4 /* LaunchScreen.storyboard in Resources */,
+				A54B90E223FF263400FABBE4 /* Assets.xcassets in Resources */,
+				A54B90DE23FF263400FABBE4 /* Art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54B90CC23FF263400FABBE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54B90D623FF263400FABBE4 /* Main.storyboard in Resources */,
+				A54B90E323FF263400FABBE4 /* Assets.xcassets in Resources */,
+				A54B90DF23FF263400FABBE4 /* Art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A54B908E23FF263300FABBE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54B909823FF263300FABBE4 /* GameViewController.swift in Sources */,
+				A54B90D823FF263400FABBE4 /* GameController.swift in Sources */,
+				A54B909623FF263300FABBE4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54B90AB23FF263400FABBE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54B90B723FF263400FABBE4 /* ExtensionDelegate.swift in Sources */,
+				A54B90D923FF263400FABBE4 /* GameController.swift in Sources */,
+				A54B90B523FF263400FABBE4 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54B90B923FF263400FABBE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54B90C223FF263400FABBE4 /* GameViewController.swift in Sources */,
+				A54B90DA23FF263400FABBE4 /* GameController.swift in Sources */,
+				A54B90C023FF263400FABBE4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54B90CA23FF263400FABBE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54B90D323FF263400FABBE4 /* GameViewController.swift in Sources */,
+				A54B90DB23FF263400FABBE4 /* GameController.swift in Sources */,
+				A54B90D123FF263400FABBE4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A54B90A523FF263400FABBE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A54B90A123FF263400FABBE4 /* BonMotTest watchOS App */;
+			targetProxy = A54B90A423FF263400FABBE4 /* PBXContainerItemProxy */;
+		};
+		A54B90B223FF263400FABBE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A54B90AE23FF263400FABBE4 /* BonMotTest watchOS App Extension */;
+			targetProxy = A54B90B123FF263400FABBE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A54B909923FF263400FABBE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54B909A23FF263400FABBE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A54B909C23FF263400FABBE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54B909D23FF263400FABBE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A54B90A723FF263400FABBE4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54B90A823FF263400FABBE4 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		A54B90C323FF263400FABBE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54B90C423FF263400FABBE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A54B90C623FF263400FABBE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54B90C723FF263400FABBE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A54B90D423FF263400FABBE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54B90D523FF263400FABBE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A54B90E423FF263400FABBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A54B90E523FF263400FABBE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A54B90E723FF263400FABBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H23953S93T;
+				INFOPLIST_FILE = "BonMotTest watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tozer.BonMotTest.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "BonMotTest Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		A54B90E823FF263400FABBE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H23953S93T;
+				INFOPLIST_FILE = "BonMotTest watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tozer.BonMotTest.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "BonMotTest Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		A54B90EB23FF263400FABBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H23953S93T;
+				IBSC_MODULE = BonMotTest_Extension;
+				INFOPLIST_FILE = "BonMotTest watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = tozer.BonMotTest.watchkitapp;
+				PRODUCT_NAME = BonMotTest;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		A54B90EC23FF263400FABBE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H23953S93T;
+				IBSC_MODULE = BonMotTest_Extension;
+				INFOPLIST_FILE = "BonMotTest watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = tozer.BonMotTest.watchkitapp;
+				PRODUCT_NAME = BonMotTest;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		A54B90EF23FF263400FABBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H23953S93T;
+				INFOPLIST_FILE = "BonMotTest iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tozer.BonMotTest;
+				PRODUCT_NAME = BonMotTest;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A54B90F023FF263400FABBE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H23953S93T;
+				INFOPLIST_FILE = "BonMotTest iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tozer.BonMotTest;
+				PRODUCT_NAME = BonMotTest;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A54B90F223FF263400FABBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H23953S93T;
+				INFOPLIST_FILE = "BonMotTest tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tozer.BonMotTest;
+				PRODUCT_NAME = BonMotTest;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		A54B90F323FF263400FABBE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H23953S93T;
+				INFOPLIST_FILE = "BonMotTest tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tozer.BonMotTest;
+				PRODUCT_NAME = BonMotTest;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A54B90F523FF263400FABBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H23953S93T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "BonMotTest macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = tozer.BonMotTest;
+				PRODUCT_NAME = BonMotTest;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A54B90F623FF263400FABBE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H23953S93T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "BonMotTest macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = tozer.BonMotTest;
+				PRODUCT_NAME = BonMotTest;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A54B908923FF262900FABBE4 /* Build configuration list for PBXProject "BonMotTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54B90E423FF263400FABBE4 /* Debug */,
+				A54B90E523FF263400FABBE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54B90E623FF263400FABBE4 /* Build configuration list for PBXNativeTarget "BonMotTest watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54B90E723FF263400FABBE4 /* Debug */,
+				A54B90E823FF263400FABBE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54B90EA23FF263400FABBE4 /* Build configuration list for PBXNativeTarget "BonMotTest watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54B90EB23FF263400FABBE4 /* Debug */,
+				A54B90EC23FF263400FABBE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54B90EE23FF263400FABBE4 /* Build configuration list for PBXNativeTarget "BonMotTest iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54B90EF23FF263400FABBE4 /* Debug */,
+				A54B90F023FF263400FABBE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54B90F123FF263400FABBE4 /* Build configuration list for PBXNativeTarget "BonMotTest tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54B90F223FF263400FABBE4 /* Debug */,
+				A54B90F323FF263400FABBE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54B90F423FF263400FABBE4 /* Build configuration list for PBXNativeTarget "BonMotTest macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54B90F523FF263400FABBE4 /* Debug */,
+				A54B90F623FF263400FABBE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A54B908623FF262900FABBE4 /* Project object */;
+}
