@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BonMot",
+        "repositoryURL": "https://github.com/Rightpoint/BonMot",
+        "state": {
+          "branch": null,
+          "revision": "d949391af6ad6f887be0eb336f8f680180c95386",
+          "version": "5.5.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

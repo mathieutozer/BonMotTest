@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -35,6 +35,10 @@
 		A54B90E123FF263400FABBE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54B908D23FF263300FABBE4 /* Assets.xcassets */; };
 		A54B90E223FF263400FABBE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54B908D23FF263300FABBE4 /* Assets.xcassets */; };
 		A54B90E323FF263400FABBE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54B908D23FF263300FABBE4 /* Assets.xcassets */; };
+		A54B90F923FF268C00FABBE4 /* BonMot in Frameworks */ = {isa = PBXBuildFile; productRef = A54B90F823FF268C00FABBE4 /* BonMot */; };
+		A54B90FC23FF26A000FABBE4 /* BonMot in Frameworks */ = {isa = PBXBuildFile; productRef = A54B90FB23FF26A000FABBE4 /* BonMot */; };
+		A54B90FE23FF26A500FABBE4 /* BonMot in Frameworks */ = {isa = PBXBuildFile; productRef = A54B90FD23FF26A500FABBE4 /* BonMot */; };
+		A54B910023FF26AD00FABBE4 /* BonMot in Frameworks */ = {isa = PBXBuildFile; productRef = A54B90FF23FF26AD00FABBE4 /* BonMot */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54B910023FF26AD00FABBE4 /* BonMot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54B90F923FF268C00FABBE4 /* BonMot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54B90FC23FF26A000FABBE4 /* BonMot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54B90FE23FF26A500FABBE4 /* BonMot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +159,7 @@
 				A54B90BE23FF263400FABBE4 /* BonMotTest tvOS */,
 				A54B90CF23FF263400FABBE4 /* BonMotTest macOS */,
 				A54B909323FF263300FABBE4 /* Products */,
+				A54B90FA23FF26A000FABBE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,6 +239,13 @@
 			path = "BonMotTest macOS";
 			sourceTree = "<group>";
 		};
+		A54B90FA23FF26A000FABBE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -248,6 +264,9 @@
 				A54B90A523FF263400FABBE4 /* PBXTargetDependency */,
 			);
 			name = "BonMotTest iOS";
+			packageProductDependencies = (
+				A54B90FF23FF26AD00FABBE4 /* BonMot */,
+			);
 			productName = "BonMotTest iOS";
 			productReference = A54B909223FF263300FABBE4 /* BonMotTest.app */;
 			productType = "com.apple.product-type.application";
@@ -282,6 +301,9 @@
 			dependencies = (
 			);
 			name = "BonMotTest watchOS App Extension";
+			packageProductDependencies = (
+				A54B90F823FF268C00FABBE4 /* BonMot */,
+			);
 			productName = "BonMotTest watchOS App Extension";
 			productReference = A54B90AF23FF263400FABBE4 /* BonMotTest Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
@@ -299,6 +321,9 @@
 			dependencies = (
 			);
 			name = "BonMotTest tvOS";
+			packageProductDependencies = (
+				A54B90FB23FF26A000FABBE4 /* BonMot */,
+			);
 			productName = "BonMotTest tvOS";
 			productReference = A54B90BD23FF263400FABBE4 /* BonMotTest.app */;
 			productType = "com.apple.product-type.application";
@@ -316,6 +341,9 @@
 			dependencies = (
 			);
 			name = "BonMotTest macOS";
+			packageProductDependencies = (
+				A54B90FD23FF26A500FABBE4 /* BonMot */,
+			);
 			productName = "BonMotTest macOS";
 			productReference = A54B90CE23FF263400FABBE4 /* BonMotTest.app */;
 			productType = "com.apple.product-type.application";
@@ -356,6 +384,9 @@
 				Base,
 			);
 			mainGroup = A54B908523FF262900FABBE4;
+			packageReferences = (
+				A54B90F723FF268C00FABBE4 /* XCRemoteSwiftPackageReference "BonMot" */,
+			);
 			productRefGroup = A54B909323FF263300FABBE4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -902,6 +933,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A54B90F723FF268C00FABBE4 /* XCRemoteSwiftPackageReference "BonMot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Rightpoint/BonMot";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A54B90F823FF268C00FABBE4 /* BonMot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A54B90F723FF268C00FABBE4 /* XCRemoteSwiftPackageReference "BonMot" */;
+			productName = BonMot;
+		};
+		A54B90FB23FF26A000FABBE4 /* BonMot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A54B90F723FF268C00FABBE4 /* XCRemoteSwiftPackageReference "BonMot" */;
+			productName = BonMot;
+		};
+		A54B90FD23FF26A500FABBE4 /* BonMot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A54B90F723FF268C00FABBE4 /* XCRemoteSwiftPackageReference "BonMot" */;
+			productName = BonMot;
+		};
+		A54B90FF23FF26AD00FABBE4 /* BonMot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A54B90F723FF268C00FABBE4 /* XCRemoteSwiftPackageReference "BonMot" */;
+			productName = BonMot;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A54B908623FF262900FABBE4 /* Project object */;
 }
